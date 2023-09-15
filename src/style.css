@@ -1,0 +1,9 @@
+body {
+    background-color: rgba(209, 209, 209, 0.788);
+}
+
+header {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
