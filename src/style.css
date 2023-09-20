@@ -12,3 +12,18 @@ header {
     letter-spacing: 6.4px;
     text-align: center;
 }
+ul{
+    display: flex;
+    align-content: center;
+    list-style: none;
+}
+
+li{
+    border: 2px solid black;
+}
+
+textarea [name="user-input"] {
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    align-content: center;
+}
