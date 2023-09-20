@@ -1,9 +1,14 @@
 body {
-    background-color: rgba(209, 209, 209, 0.788);
+    background-color: #045257;
 }
 
 header {
-    font-size: 25px;
-    font-weight: bold;
+    color: #FFF;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 6.4px;
     text-align: center;
 }
