@@ -1,29 +1,162 @@
 body {
-    background-color: #045257;
+    background-color: #dfbbff;
+    font-family: 'Playfair Display', serif;
 }
 
 header {
-    color: #FFF;
-    font-family: 'Playfair Display', serif;
-    font-size: 24px;
+    color:#724599;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 6.4px;
     text-align: center;
 }
+
+
+/*Funcionalidades*/
 ul{
+    background-color: #B57EE6;
     display: flex;
-    align-content: center;
-    list-style: none;
+    flex-flow: wrap row;
+    width: 75%;
+    height: 175px;
+    margin: 0 auto;
+    border-radius: 25px;
 }
 
-li{
-    border: 2px solid black;
+.palabras{
+    display: flex;
+    background-color: #D5A6FF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFF;
+    width: 250px;
+    height: 45px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 25px;
 }
 
-textarea [name="user-input"] {
-    font-family: 'Playfair Display', serif;
+
+.caracteres{
     display: flex;
-    align-content: center;
+    background-color: #D5A6FF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFF;
+    width: 250px;
+    height: 45px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 25px;
+}
+
+.caraEspecial {
+    display: flex;
+    background-color: #D5A6FF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFF;
+    width: 250px;
+    height: 45px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 25px;
+}
+
+.numeros {
+    display: flex;
+    background-color: #D5A6FF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFF;
+    width: 250px;
+    height: 45px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2px 0px 40px 25px;
+}
+
+.sumaNum {
+    display: flex;
+    background-color: #D5A6FF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFF;
+    width: 250px;
+    height: 45px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2px 0px 55px 50px;
+}
+
+.longitud {
+    display: flex;
+    background-color: #D5A6FF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFF;
+    width: 250px;
+    height: 45px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2px 0px 25px 50px ;
+}
+
+/*Area de texto*/
+
+div {
+    background-color: #B57EE6;
+    width: 85%;
+    height: 255px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 25px 25px 0px 0px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea[name="user-input"] {
+    background-color: #D5A6FF;
+    width: 80%;
+    height: 25vh;
+    text-align: center;
+    margin: auto;
+}
+
+#reset-button {
+    background-color:#dec4f5;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+}
+
+footer {
+    text-align: center;
+    color: #583477;
 }

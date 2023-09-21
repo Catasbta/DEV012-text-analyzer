@@ -16,14 +16,15 @@
   </header>
 
   <ul>
-    <li data-testid="word-count">Recuento de palabras</li>
-    <li data-testid="character-count">Recuentos de caracteres</li>
-    <li data-testid="character-no-spaces-count">Recuento de caracteres excluyendo espacios y signos de puntuación</li>
-    <li data-testid="number-count">Recuento de números</li>
-    <li data-testid="number-sum">Suma total de números</li>
-    <li data-testid="word-length-average">Longitud media de palabras</li>
+    <li data-testid="word-count" class="palabras">Palabras: </li>
+    <li data-testid="character-count" class="caracteres">Caracteres: </li>
+    <li data-testid="character-no-spaces-count" class="caraEspecial">Caracteres especiales: </li>
+    <li data-testid="number-count" class="numeros">Números: </li>
+    <li data-testid="number-sum" class="sumaNum">Suma de números: </li>
+    <li data-testid="word-length-average" class="longitud">Longitud: </li>
   </ul>
 
+  <div>
   <textarea name="user-input">Ingrese el texto...</textarea>
 
   <button id="reset-button">Limpiar</button>
@@ -31,7 +32,7 @@
   <footer>
     <p>Autora: Catalina Torres</p>
   </footer>
-
+  </div>
 
   <script src="index.js" type="module"></script>
 </body>
